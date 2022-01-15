@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import Guest, Table
 
-# Register your models here.
+admin.site.register(Guest)
+admin.site.register(Table)
